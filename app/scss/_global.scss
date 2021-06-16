@@ -50,3 +50,9 @@ button,
     display: none;
   }
 }
+
+.hide-for-desktop {
+  @include breakpoint-up(large) {
+    visibility: hidden;
+  }
+}

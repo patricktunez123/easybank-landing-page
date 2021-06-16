@@ -1,6 +1,6 @@
 .header {
   &.open {
-    .mobile-menu {
+    .mobile-toggle {
       span {
         &:first-child {
           transform: rotate(45deg);
@@ -36,7 +36,7 @@
         height: 1.375rem;
       }
     }
-    .mobile-menu {
+    .mobile-toggle {
       span {
         background: $darkBlue;
         width: 26px;
@@ -44,7 +44,7 @@
         display: block;
         line-height: 1.3;
         transition: all 300ms ease-in-out;
-        transform-origin: 4px 1px;
+        transform-origin: 2px 2.5px;
 
         &:not(:last-child) {
           margin-bottom: 6px;
